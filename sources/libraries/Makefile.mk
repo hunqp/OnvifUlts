@@ -1,0 +1,2 @@
+-include sources/libraries/libxml/Makefile.mk
+-include sources/libraries/libonvif/Makefile.mk
