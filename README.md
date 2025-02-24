@@ -1,3 +1,5 @@
+## COMPILE LIBXML2
+
 sed -i 's/1.16.3/1.15/g' configure.ac
 
 ./autogen.sh --host=arm-anycloud-linux --with-pic --with-sax1 --with-xpath --with-c14n --with-iso8859x --with-output --without-iconv --without-http --without-ftp --without-html --with-minimum --without-python --without-zlib --without-lzma --prefix=$(pwd)/out
